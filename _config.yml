@@ -6,7 +6,7 @@ favicon: 'assets/images/favicon.ico'
 baseurl: '/'
 disqus: 'Drew Wilson'
 email: ''
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+mailchimp-list: 'https://club.us10.list-manage.com/subscribe/post?u=b3ff55e61cd524ebabe1d6674&amp;id=666c3a8a18'
 
 include: ["_pages"]
 permalink: /:title/
