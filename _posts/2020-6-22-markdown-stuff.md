@@ -50,3 +50,26 @@ Another way to insert links in markdown is using reference lists. You might want
 Perhaps the best part of Markdown is that you're never limited to just Markdown. You can write HTML directly in the Markdown editor and it will just work as HTML usually does. No limits! Here's a standard YouTube embed code as an example:
 
 <p><iframe style="width:100%;" height="315" src="https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+
+### test md table
+|Command|Description|
+|--- |--- |
+|a-money|adds money to the specified account|
+|r-money|removes money from the specified account|
+|balance|shows how much money you have|
+|buy|lets you buy items|
+|use|lets you use items|
+|daily|claim your daily reward|
+|inventory|shows your inventory|
+|massbuy|lets you buy a specified amount of an item|
+|monthly ☆|claim your monthly reward|
+|profile|shows all your information|
+|store|shows all 25 items in the store|
+|transfer|lets you transfer money from your account to someone else|
+|weekly ☆|claim your weekly reward|
+
+### new table
+
+|table row one|table row two|
+|--- |--- |
+|this is row one|this is row two|
