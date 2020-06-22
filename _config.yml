@@ -19,7 +19,7 @@ plugins:
   - jekyll-seo-tag
   
 authors:
-    sal:
+    drew:
       name:           Drew Wilson
       site:           https://www.drewwilson.club
       avatar:         /assets/images/avatar1.jpg
