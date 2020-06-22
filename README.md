@@ -1,51 +1,75 @@
-# Jekyll Theme - Mundana by WowThemes.net
+```---
+layout: post
+title:  "Powerful things you can do with the Markdown editor"
+author: Drew Wilson
+categories: [ Jekyll, tutorial ]
+image: assets/images/4.jpg
+tags: [featured]
+---
+There are lots of powerful things you can do with the Markdown editor
 
-[Live Demo](https://wowthemesnet.github.io/mundana-theme-jekyll/) &nbsp; | &nbsp; 
-[Download](https://github.com/wowthemesnet/mundana-theme-jekyll/archive/master.zip) &nbsp; | &nbsp; 
-[Buy me a coffe](https://www.wowthemes.net/donate/) &nbsp; | &nbsp; [Documentation](https://bootstrapstarter.com/bootstrap-templates/mundana-theme-jekyll/) &nbsp; | &nbsp; 
-[WordPress version](https://www.wowthemes.net/themes/mundana-wordpress/) 
+If you've gotten pretty comfortable with writing in Markdown, then you may enjoy some more advanced tips about the types of things you can do with Markdown!
 
-![mundana jekyll theme screenshot](assets/images/screenshot.jpg)
-
-### Documentation
-
-[How to install & use](https://bootstrapstarter.com/bootstrap-templates/mundana-theme-jekyll/)
-
-### Contribute to Mundana repository
-
-1. In the top-right corner of this page, click **Fork**.
-
-2. Clone a copy of your fork on your local, replacing *YOUR-USERNAME* with your Github username.
-
-   `git clone https://github.com/YOUR-USERNAME/mundana-theme-jekyll.git`
-
-3. **Create a branch**: 
-
-   `git checkout -b <my-new-feature-or-fix>`
-
-4. **Make necessary changes and commit those changes**:
-
-   `git add .`
-
-   `git commit -m "new feature or fix"`
-
-5. **Push changes**, replacing `<add-your-branch-name>` with the name of the branch you created earlier at step #3. :
-
-   `git push origin <add-your-branch-name>`
-
-6. Submit your changes for review. Go to your repository on GitHub, you'll see a **Compare & pull request** button. Click on that button. Now submit the pull request.
-
-That's it! Soon I'll be merging your changes into the master branch of this project. You will get a notification email once the changes have been merged. Thank you for your contribution.
+As with the last post about the editor, you'll want to be actually editing this post as you read it so that you can see all the Markdown code we're using.
 
 
-### Copyright
+## Special formatting
 
-Copyright (C) 2019 WowThemes.net.
+As well as bold and italics, you can also use some other special formatting in Markdown when the need arises, for example:
 
-Theme designed and developed by [Sal](https://www.wowthemes.net), *free* under MIT license. 
++ ~~strike through~~
++ ==highlight==
++ \*escaped characters\*
 
-<a href="https://www.wowthemes.net/donate/" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
-### Live Demo
+## Writing code blocks
 
-[Live Demo](https://wowthemesnet.github.io/mundana-theme-jekyll/)
+There are two types of code elements which can be inserted in Markdown, the first is inline, and the other is block. Inline code is formatted by wrapping any word or words in back-ticks, `like this`. Larger snippets of code can be displayed across multiple lines using triple back ticks:
+
+```
+.my-link {
+    text-decoration: underline;
+}
+```
+
+If you want to get really fancy, you can even add syntax highlighting using Rouge.
+
+
+![walking]({{ site.baseurl }}/assets/images/3.jpg)
+
+[test link](http://apple.com)
+
+## Reference lists
+
+The quick brown jumped over the lazy.
+
+Another way to insert links in markdown is using reference lists. You might want to use this style of linking to cite reference material in a Wikipedia-style. All of the links are listed at the end of the document, so you can maintain full separation between content and its source or reference.
+
+## Full HTML
+
+Perhaps the best part of Markdown is that you're never limited to just Markdown. You can write HTML directly in the Markdown editor and it will just work as HTML usually does. No limits! Here's a standard YouTube embed code as an example:
+
+<p><iframe style="width:100%;" height="315" src="https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+
+### test md table
+|Command|Description|
+|--- |--- |
+|a-money|adds money to the specified account|
+|r-money|removes money from the specified account|
+|balance|shows how much money you have|
+|buy|lets you buy items|
+|use|lets you use items|
+|daily|claim your daily reward|
+|inventory|shows your inventory|
+|massbuy|lets you buy a specified amount of an item|
+|monthly ☆|claim your monthly reward|
+|profile|shows all your information|
+|store|shows all 25 items in the store|
+|transfer|lets you transfer money from your account to someone else|
+|weekly ☆|claim your weekly reward|
+
+### new table
+
+|table row one|table row two|
+|--- |--- |
+|this is row one|this is row two|```
