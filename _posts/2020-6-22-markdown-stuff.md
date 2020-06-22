@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Powerful things you can do with the Markdown editor"
-author: sal
+author: Drew Wilson
 categories: [ Jekyll, tutorial ]
 image: assets/images/4.jpg
 tags: [featured]
@@ -36,6 +36,8 @@ If you want to get really fancy, you can even add syntax highlighting using Roug
 
 
 ![walking]({{ site.baseurl }}/assets/images/3.jpg)
+
+[test link](http://apple.com)
 
 ## Reference lists
 
