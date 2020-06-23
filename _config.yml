@@ -22,7 +22,7 @@ authors:
     drew:
       name:           Drew Wilson
       site:           https://www.drewwilson.club
-      avatar:         /assets/images/avatar1.jpg
+      avatar:         https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fblog.macsales.com%2Fwp-content%2Fuploads%2F2015%2F06%2FApple-Logo-black.png&f=1&nofb=1
       bio:            "Hi, I am Drew Wilson, the author of my blog. I hope you like it!"
       email:          
       twitter:        
@@ -36,7 +36,7 @@ defaults:
     values:
       layout: post
       author: Drew Wilson
-      avatar: /assets/images/avatar1.jpg
+      avatar: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fblog.macsales.com%2Fwp-content%2Fuploads%2F2015%2F06%2FApple-Logo-black.png&f=1&nofb=1
       
   # all pages
   - scope:
