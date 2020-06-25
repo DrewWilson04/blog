@@ -3,7 +3,7 @@ layout: post
 title:  "Socail Media and its problems..."
 author: drew
 categories: [Truths]
-image: https://makeawebsitehub.com/wp-content/uploads/2016/04/social_media-700x467.png
+image: https://i.imgur.com/1NDko5o.png
 tags: [featured, social media, truths]
 ---
 
