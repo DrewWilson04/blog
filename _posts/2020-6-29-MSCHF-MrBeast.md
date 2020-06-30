@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  ""
+title:  MSCHF x MrBeast
 author: drew
 categories:
 image: https://www.tubefilter.com/wp-content/uploads/2020/06/mschf-mrbeast.png
